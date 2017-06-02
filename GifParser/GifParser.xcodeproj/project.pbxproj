@@ -1,0 +1,364 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EDDEA7321EC57F1B00F17C48 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EDDEA7311EC57F1B00F17C48 /* main.m */; };
+		EDDEA7351EC57F1B00F17C48 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EDDEA7341EC57F1B00F17C48 /* AppDelegate.m */; };
+		EDDEA73B1EC57F1B00F17C48 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDDEA7391EC57F1B00F17C48 /* Main.storyboard */; };
+		EDDEA73D1EC57F1B00F17C48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDDEA73C1EC57F1B00F17C48 /* Assets.xcassets */; };
+		EDDEA7401EC57F1B00F17C48 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDDEA73E1EC57F1B00F17C48 /* LaunchScreen.storyboard */; };
+		EDDEA7481EC5800600F17C48 /* dog.gif in Resources */ = {isa = PBXBuildFile; fileRef = EDDEA7471EC5800600F17C48 /* dog.gif */; };
+		EDDEA74B1EC5807700F17C48 /* ListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EDDEA74A1EC5807700F17C48 /* ListTableViewController.m */; };
+		EDDEA74F1EC5822000F17C48 /* GifAnalysisVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EDDEA74D1EC5822000F17C48 /* GifAnalysisVC.m */; };
+		EDDEA7501EC5822000F17C48 /* GifAnalysisVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = EDDEA74E1EC5822000F17C48 /* GifAnalysisVC.xib */; };
+		EDDEA7531EC5857000F17C48 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDDEA7521EC5856F00F17C48 /* ImageIO.framework */; };
+		EDDEA75F1EC58A8E00F17C48 /* GifSynthesisVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EDDEA75D1EC58A8E00F17C48 /* GifSynthesisVC.m */; };
+		EDDEA7601EC58A8E00F17C48 /* GifSynthesisVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = EDDEA75E1EC58A8E00F17C48 /* GifSynthesisVC.xib */; };
+		EDDEA7641EC5969200F17C48 /* PlayGifVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EDDEA7621EC5969200F17C48 /* PlayGifVC.m */; };
+		EDDEA7651EC5969200F17C48 /* PlayGifVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = EDDEA7631EC5969200F17C48 /* PlayGifVC.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EDDEA72D1EC57F1B00F17C48 /* GifParser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GifParser.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDDEA7311EC57F1B00F17C48 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EDDEA7331EC57F1B00F17C48 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EDDEA7341EC57F1B00F17C48 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EDDEA73A1EC57F1B00F17C48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EDDEA73C1EC57F1B00F17C48 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EDDEA73F1EC57F1B00F17C48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EDDEA7411EC57F1B00F17C48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDDEA7471EC5800600F17C48 /* dog.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = dog.gif; sourceTree = "<group>"; };
+		EDDEA7491EC5807700F17C48 /* ListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListTableViewController.h; sourceTree = "<group>"; };
+		EDDEA74A1EC5807700F17C48 /* ListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListTableViewController.m; sourceTree = "<group>"; };
+		EDDEA74C1EC5822000F17C48 /* GifAnalysisVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GifAnalysisVC.h; sourceTree = "<group>"; };
+		EDDEA74D1EC5822000F17C48 /* GifAnalysisVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GifAnalysisVC.m; sourceTree = "<group>"; };
+		EDDEA74E1EC5822000F17C48 /* GifAnalysisVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GifAnalysisVC.xib; sourceTree = "<group>"; };
+		EDDEA7521EC5856F00F17C48 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		EDDEA75C1EC58A8E00F17C48 /* GifSynthesisVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GifSynthesisVC.h; sourceTree = "<group>"; };
+		EDDEA75D1EC58A8E00F17C48 /* GifSynthesisVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GifSynthesisVC.m; sourceTree = "<group>"; };
+		EDDEA75E1EC58A8E00F17C48 /* GifSynthesisVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GifSynthesisVC.xib; sourceTree = "<group>"; };
+		EDDEA7611EC5969200F17C48 /* PlayGifVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayGifVC.h; sourceTree = "<group>"; };
+		EDDEA7621EC5969200F17C48 /* PlayGifVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayGifVC.m; sourceTree = "<group>"; };
+		EDDEA7631EC5969200F17C48 /* PlayGifVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PlayGifVC.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EDDEA72A1EC57F1B00F17C48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDDEA7531EC5857000F17C48 /* ImageIO.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EDDEA7241EC57F1B00F17C48 = {
+			isa = PBXGroup;
+			children = (
+				EDDEA72F1EC57F1B00F17C48 /* GifParser */,
+				EDDEA72E1EC57F1B00F17C48 /* Products */,
+				EDDEA7511EC5856F00F17C48 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EDDEA72E1EC57F1B00F17C48 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EDDEA72D1EC57F1B00F17C48 /* GifParser.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EDDEA72F1EC57F1B00F17C48 /* GifParser */ = {
+			isa = PBXGroup;
+			children = (
+				EDDEA7471EC5800600F17C48 /* dog.gif */,
+				EDDEA7331EC57F1B00F17C48 /* AppDelegate.h */,
+				EDDEA7341EC57F1B00F17C48 /* AppDelegate.m */,
+				EDDEA7611EC5969200F17C48 /* PlayGifVC.h */,
+				EDDEA7621EC5969200F17C48 /* PlayGifVC.m */,
+				EDDEA7631EC5969200F17C48 /* PlayGifVC.xib */,
+				EDDEA7491EC5807700F17C48 /* ListTableViewController.h */,
+				EDDEA74A1EC5807700F17C48 /* ListTableViewController.m */,
+				EDDEA75C1EC58A8E00F17C48 /* GifSynthesisVC.h */,
+				EDDEA75D1EC58A8E00F17C48 /* GifSynthesisVC.m */,
+				EDDEA75E1EC58A8E00F17C48 /* GifSynthesisVC.xib */,
+				EDDEA74C1EC5822000F17C48 /* GifAnalysisVC.h */,
+				EDDEA74D1EC5822000F17C48 /* GifAnalysisVC.m */,
+				EDDEA74E1EC5822000F17C48 /* GifAnalysisVC.xib */,
+				EDDEA7391EC57F1B00F17C48 /* Main.storyboard */,
+				EDDEA73C1EC57F1B00F17C48 /* Assets.xcassets */,
+				EDDEA73E1EC57F1B00F17C48 /* LaunchScreen.storyboard */,
+				EDDEA7411EC57F1B00F17C48 /* Info.plist */,
+				EDDEA7301EC57F1B00F17C48 /* Supporting Files */,
+			);
+			path = GifParser;
+			sourceTree = "<group>";
+		};
+		EDDEA7301EC57F1B00F17C48 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EDDEA7311EC57F1B00F17C48 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EDDEA7511EC5856F00F17C48 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EDDEA7521EC5856F00F17C48 /* ImageIO.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EDDEA72C1EC57F1B00F17C48 /* GifParser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDDEA7441EC57F1B00F17C48 /* Build configuration list for PBXNativeTarget "GifParser" */;
+			buildPhases = (
+				EDDEA7291EC57F1B00F17C48 /* Sources */,
+				EDDEA72A1EC57F1B00F17C48 /* Frameworks */,
+				EDDEA72B1EC57F1B00F17C48 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GifParser;
+			productName = GifParser;
+			productReference = EDDEA72D1EC57F1B00F17C48 /* GifParser.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EDDEA7251EC57F1B00F17C48 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = YehHenChia;
+				TargetAttributes = {
+					EDDEA72C1EC57F1B00F17C48 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = EDDEA7281EC57F1B00F17C48 /* Build configuration list for PBXProject "GifParser" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EDDEA7241EC57F1B00F17C48;
+			productRefGroup = EDDEA72E1EC57F1B00F17C48 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EDDEA72C1EC57F1B00F17C48 /* GifParser */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EDDEA72B1EC57F1B00F17C48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDDEA7401EC57F1B00F17C48 /* LaunchScreen.storyboard in Resources */,
+				EDDEA7651EC5969200F17C48 /* PlayGifVC.xib in Resources */,
+				EDDEA7481EC5800600F17C48 /* dog.gif in Resources */,
+				EDDEA7501EC5822000F17C48 /* GifAnalysisVC.xib in Resources */,
+				EDDEA73D1EC57F1B00F17C48 /* Assets.xcassets in Resources */,
+				EDDEA7601EC58A8E00F17C48 /* GifSynthesisVC.xib in Resources */,
+				EDDEA73B1EC57F1B00F17C48 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EDDEA7291EC57F1B00F17C48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDDEA7351EC57F1B00F17C48 /* AppDelegate.m in Sources */,
+				EDDEA7641EC5969200F17C48 /* PlayGifVC.m in Sources */,
+				EDDEA74F1EC5822000F17C48 /* GifAnalysisVC.m in Sources */,
+				EDDEA7321EC57F1B00F17C48 /* main.m in Sources */,
+				EDDEA75F1EC58A8E00F17C48 /* GifSynthesisVC.m in Sources */,
+				EDDEA74B1EC5807700F17C48 /* ListTableViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EDDEA7391EC57F1B00F17C48 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDDEA73A1EC57F1B00F17C48 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EDDEA73E1EC57F1B00F17C48 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDDEA73F1EC57F1B00F17C48 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EDDEA7421EC57F1B00F17C48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EDDEA7431EC57F1B00F17C48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EDDEA7451EC57F1B00F17C48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GifParser/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = momo.GifParser;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EDDEA7461EC57F1B00F17C48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GifParser/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = momo.GifParser;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EDDEA7281EC57F1B00F17C48 /* Build configuration list for PBXProject "GifParser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDDEA7421EC57F1B00F17C48 /* Debug */,
+				EDDEA7431EC57F1B00F17C48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDDEA7441EC57F1B00F17C48 /* Build configuration list for PBXNativeTarget "GifParser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDDEA7451EC57F1B00F17C48 /* Debug */,
+				EDDEA7461EC57F1B00F17C48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EDDEA7251EC57F1B00F17C48 /* Project object */;
+}

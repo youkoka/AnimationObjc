@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="KEd-zA-IBl">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="gfy-2e-bRk">
+            <objects>
+                <viewController id="KEd-zA-IBl" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="zaf-NT-i9G"/>
+                        <viewControllerLayoutGuide type="bottom" id="q19-zh-v1J"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="5E9-qS-tbO">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BoF-hh-jMy" customClass="WaterRippleBtn">
+                                <rect key="frame" x="96" y="102" width="182" height="96"/>
+                                <color key="backgroundColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="182" id="Kie-Um-Jio"/>
+                                    <constraint firstAttribute="height" constant="96" id="Nni-iC-kKa"/>
+                                </constraints>
+                                <state key="normal" title="tap"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="BoF-hh-jMy" firstAttribute="top" secondItem="zaf-NT-i9G" secondAttribute="bottom" constant="82" id="RWy-NM-3ft"/>
+                            <constraint firstItem="BoF-hh-jMy" firstAttribute="centerX" secondItem="5E9-qS-tbO" secondAttribute="centerX" id="j7S-ic-M7f"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="btnTap" destination="BoF-hh-jMy" id="K25-9Z-AgR"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VJI-GQ-kI6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="72.799999999999997" y="148.87556221889056"/>
+        </scene>
+    </scenes>
+</document>

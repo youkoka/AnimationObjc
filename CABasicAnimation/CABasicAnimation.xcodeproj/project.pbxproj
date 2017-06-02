@@ -1,0 +1,457 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EDC26BE21ECA9BCA002656FD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EDC26BE11ECA9BCA002656FD /* main.m */; };
+		EDC26BE51ECA9BCA002656FD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EDC26BE41ECA9BCA002656FD /* AppDelegate.m */; };
+		EDC26BEB1ECA9BCA002656FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDC26BE91ECA9BCA002656FD /* Main.storyboard */; };
+		EDC26BED1ECA9BCA002656FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDC26BEC1ECA9BCA002656FD /* Assets.xcassets */; };
+		EDC26BF01ECA9BCA002656FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDC26BEE1ECA9BCA002656FD /* LaunchScreen.storyboard */; };
+		EDC26BF91ECA9C0C002656FD /* ListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EDC26BF81ECA9C0C002656FD /* ListTableViewController.m */; };
+		EDC26BFD1ECA9CE7002656FD /* TranslateAnimationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EDC26BFB1ECA9CE7002656FD /* TranslateAnimationVC.m */; };
+		EDC26BFE1ECA9CE7002656FD /* TranslateAnimationVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = EDC26BFC1ECA9CE7002656FD /* TranslateAnimationVC.xib */; };
+		EDC26C041ECAA1F2002656FD /* ScaleAnimationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EDC26C021ECAA1F2002656FD /* ScaleAnimationVC.m */; };
+		EDC26C051ECAA1F2002656FD /* ScaleAnimationVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = EDC26C031ECAA1F2002656FD /* ScaleAnimationVC.xib */; };
+		EDC26C091ECAA4F2002656FD /* RotationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EDC26C071ECAA4F2002656FD /* RotationViewController.m */; };
+		EDC26C0A1ECAA4F2002656FD /* RotationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EDC26C081ECAA4F2002656FD /* RotationViewController.xib */; };
+		EDC26C0E1ECAA7E1002656FD /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = EDC26C0D1ECAA7E1002656FD /* libc++.tbd */; };
+		EDC26C131ECAA971002656FD /* CornerRadiusAnimationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EDC26C111ECAA971002656FD /* CornerRadiusAnimationVC.m */; };
+		EDC26C141ECAA971002656FD /* CornerRadiusAnimationVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = EDC26C121ECAA971002656FD /* CornerRadiusAnimationVC.xib */; };
+		EDC26C191ECAAB32002656FD /* BorderAnimationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EDC26C171ECAAB32002656FD /* BorderAnimationVC.m */; };
+		EDC26C1A1ECAAB32002656FD /* BorderAnimationVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = EDC26C181ECAAB32002656FD /* BorderAnimationVC.xib */; };
+		EDC26C1F1ECAAED3002656FD /* ColorOpacityAnimationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EDC26C1D1ECAAED3002656FD /* ColorOpacityAnimationVC.m */; };
+		EDC26C201ECAAED3002656FD /* ColorOpacityAnimationVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = EDC26C1E1ECAAED3002656FD /* ColorOpacityAnimationVC.xib */; };
+		EDC26C251ECAC7D0002656FD /* ShadowOffsetAnimaitonVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EDC26C231ECAC7D0002656FD /* ShadowOffsetAnimaitonVC.m */; };
+		EDC26C261ECAC7D0002656FD /* ShadowOffsetAnimaitonVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = EDC26C241ECAC7D0002656FD /* ShadowOffsetAnimaitonVC.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EDC26BDD1ECA9BCA002656FD /* CABasicAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CABasicAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDC26BE11ECA9BCA002656FD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EDC26BE31ECA9BCA002656FD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EDC26BE41ECA9BCA002656FD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EDC26BEA1ECA9BCA002656FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EDC26BEC1ECA9BCA002656FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EDC26BEF1ECA9BCA002656FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EDC26BF11ECA9BCA002656FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDC26BF71ECA9C0C002656FD /* ListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListTableViewController.h; sourceTree = "<group>"; };
+		EDC26BF81ECA9C0C002656FD /* ListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListTableViewController.m; sourceTree = "<group>"; };
+		EDC26BFA1ECA9CE7002656FD /* TranslateAnimationVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TranslateAnimationVC.h; sourceTree = "<group>"; };
+		EDC26BFB1ECA9CE7002656FD /* TranslateAnimationVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TranslateAnimationVC.m; sourceTree = "<group>"; };
+		EDC26BFC1ECA9CE7002656FD /* TranslateAnimationVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TranslateAnimationVC.xib; sourceTree = "<group>"; };
+		EDC26C011ECAA1F2002656FD /* ScaleAnimationVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScaleAnimationVC.h; sourceTree = "<group>"; };
+		EDC26C021ECAA1F2002656FD /* ScaleAnimationVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScaleAnimationVC.m; sourceTree = "<group>"; };
+		EDC26C031ECAA1F2002656FD /* ScaleAnimationVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ScaleAnimationVC.xib; sourceTree = "<group>"; };
+		EDC26C061ECAA4F2002656FD /* RotationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RotationViewController.h; sourceTree = "<group>"; };
+		EDC26C071ECAA4F2002656FD /* RotationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RotationViewController.m; sourceTree = "<group>"; };
+		EDC26C081ECAA4F2002656FD /* RotationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RotationViewController.xib; sourceTree = "<group>"; };
+		EDC26C0D1ECAA7E1002656FD /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		EDC26C101ECAA971002656FD /* CornerRadiusAnimationVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CornerRadiusAnimationVC.h; sourceTree = "<group>"; };
+		EDC26C111ECAA971002656FD /* CornerRadiusAnimationVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CornerRadiusAnimationVC.m; sourceTree = "<group>"; };
+		EDC26C121ECAA971002656FD /* CornerRadiusAnimationVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CornerRadiusAnimationVC.xib; sourceTree = "<group>"; };
+		EDC26C161ECAAB32002656FD /* BorderAnimationVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BorderAnimationVC.h; sourceTree = "<group>"; };
+		EDC26C171ECAAB32002656FD /* BorderAnimationVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BorderAnimationVC.m; sourceTree = "<group>"; };
+		EDC26C181ECAAB32002656FD /* BorderAnimationVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BorderAnimationVC.xib; sourceTree = "<group>"; };
+		EDC26C1C1ECAAED3002656FD /* ColorOpacityAnimationVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorOpacityAnimationVC.h; sourceTree = "<group>"; };
+		EDC26C1D1ECAAED3002656FD /* ColorOpacityAnimationVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorOpacityAnimationVC.m; sourceTree = "<group>"; };
+		EDC26C1E1ECAAED3002656FD /* ColorOpacityAnimationVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ColorOpacityAnimationVC.xib; sourceTree = "<group>"; };
+		EDC26C221ECAC7CF002656FD /* ShadowOffsetAnimaitonVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShadowOffsetAnimaitonVC.h; sourceTree = "<group>"; };
+		EDC26C231ECAC7D0002656FD /* ShadowOffsetAnimaitonVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShadowOffsetAnimaitonVC.m; sourceTree = "<group>"; };
+		EDC26C241ECAC7D0002656FD /* ShadowOffsetAnimaitonVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ShadowOffsetAnimaitonVC.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EDC26BDA1ECA9BCA002656FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDC26C0E1ECAA7E1002656FD /* libc++.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EDC26BD41ECA9BCA002656FD = {
+			isa = PBXGroup;
+			children = (
+				EDC26BDF1ECA9BCA002656FD /* CABasicAnimation */,
+				EDC26BDE1ECA9BCA002656FD /* Products */,
+				EDC26C0C1ECAA7E0002656FD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EDC26BDE1ECA9BCA002656FD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EDC26BDD1ECA9BCA002656FD /* CABasicAnimation.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EDC26BDF1ECA9BCA002656FD /* CABasicAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				EDC26BE31ECA9BCA002656FD /* AppDelegate.h */,
+				EDC26BE41ECA9BCA002656FD /* AppDelegate.m */,
+				EDC26BF71ECA9C0C002656FD /* ListTableViewController.h */,
+				EDC26BF81ECA9C0C002656FD /* ListTableViewController.m */,
+				EDC26C211ECAC79E002656FD /* ShadowOffset */,
+				EDC26C1B1ECAAEA8002656FD /* ColorAndOpacityAnimaton */,
+				EDC26C151ECAAB10002656FD /* BorderAnimation */,
+				EDC26C0F1ECAA94C002656FD /* CornerRadiusAnimation */,
+				EDC26C0B1ECAA4F7002656FD /* RotationAnimation */,
+				EDC26C001ECAA1DB002656FD /* ScaleAnimation */,
+				EDC26BFF1ECA9CEB002656FD /* TranslateAnimation */,
+				EDC26BE91ECA9BCA002656FD /* Main.storyboard */,
+				EDC26BEC1ECA9BCA002656FD /* Assets.xcassets */,
+				EDC26BEE1ECA9BCA002656FD /* LaunchScreen.storyboard */,
+				EDC26BF11ECA9BCA002656FD /* Info.plist */,
+				EDC26BE01ECA9BCA002656FD /* Supporting Files */,
+			);
+			path = CABasicAnimation;
+			sourceTree = "<group>";
+		};
+		EDC26BE01ECA9BCA002656FD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EDC26BE11ECA9BCA002656FD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EDC26BFF1ECA9CEB002656FD /* TranslateAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				EDC26BFA1ECA9CE7002656FD /* TranslateAnimationVC.h */,
+				EDC26BFB1ECA9CE7002656FD /* TranslateAnimationVC.m */,
+				EDC26BFC1ECA9CE7002656FD /* TranslateAnimationVC.xib */,
+			);
+			name = TranslateAnimation;
+			sourceTree = "<group>";
+		};
+		EDC26C001ECAA1DB002656FD /* ScaleAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				EDC26C011ECAA1F2002656FD /* ScaleAnimationVC.h */,
+				EDC26C021ECAA1F2002656FD /* ScaleAnimationVC.m */,
+				EDC26C031ECAA1F2002656FD /* ScaleAnimationVC.xib */,
+			);
+			name = ScaleAnimation;
+			sourceTree = "<group>";
+		};
+		EDC26C0B1ECAA4F7002656FD /* RotationAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				EDC26C061ECAA4F2002656FD /* RotationViewController.h */,
+				EDC26C071ECAA4F2002656FD /* RotationViewController.m */,
+				EDC26C081ECAA4F2002656FD /* RotationViewController.xib */,
+			);
+			name = RotationAnimation;
+			sourceTree = "<group>";
+		};
+		EDC26C0C1ECAA7E0002656FD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EDC26C0D1ECAA7E1002656FD /* libc++.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EDC26C0F1ECAA94C002656FD /* CornerRadiusAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				EDC26C101ECAA971002656FD /* CornerRadiusAnimationVC.h */,
+				EDC26C111ECAA971002656FD /* CornerRadiusAnimationVC.m */,
+				EDC26C121ECAA971002656FD /* CornerRadiusAnimationVC.xib */,
+			);
+			name = CornerRadiusAnimation;
+			sourceTree = "<group>";
+		};
+		EDC26C151ECAAB10002656FD /* BorderAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				EDC26C161ECAAB32002656FD /* BorderAnimationVC.h */,
+				EDC26C171ECAAB32002656FD /* BorderAnimationVC.m */,
+				EDC26C181ECAAB32002656FD /* BorderAnimationVC.xib */,
+			);
+			name = BorderAnimation;
+			sourceTree = "<group>";
+		};
+		EDC26C1B1ECAAEA8002656FD /* ColorAndOpacityAnimaton */ = {
+			isa = PBXGroup;
+			children = (
+				EDC26C1C1ECAAED3002656FD /* ColorOpacityAnimationVC.h */,
+				EDC26C1D1ECAAED3002656FD /* ColorOpacityAnimationVC.m */,
+				EDC26C1E1ECAAED3002656FD /* ColorOpacityAnimationVC.xib */,
+			);
+			name = ColorAndOpacityAnimaton;
+			sourceTree = "<group>";
+		};
+		EDC26C211ECAC79E002656FD /* ShadowOffset */ = {
+			isa = PBXGroup;
+			children = (
+				EDC26C221ECAC7CF002656FD /* ShadowOffsetAnimaitonVC.h */,
+				EDC26C231ECAC7D0002656FD /* ShadowOffsetAnimaitonVC.m */,
+				EDC26C241ECAC7D0002656FD /* ShadowOffsetAnimaitonVC.xib */,
+			);
+			name = ShadowOffset;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EDC26BDC1ECA9BCA002656FD /* CABasicAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDC26BF41ECA9BCA002656FD /* Build configuration list for PBXNativeTarget "CABasicAnimation" */;
+			buildPhases = (
+				EDC26BD91ECA9BCA002656FD /* Sources */,
+				EDC26BDA1ECA9BCA002656FD /* Frameworks */,
+				EDC26BDB1ECA9BCA002656FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CABasicAnimation;
+			productName = CABasicAnimation;
+			productReference = EDC26BDD1ECA9BCA002656FD /* CABasicAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EDC26BD51ECA9BCA002656FD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = YehHenChia;
+				TargetAttributes = {
+					EDC26BDC1ECA9BCA002656FD = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = EDC26BD81ECA9BCA002656FD /* Build configuration list for PBXProject "CABasicAnimation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EDC26BD41ECA9BCA002656FD;
+			productRefGroup = EDC26BDE1ECA9BCA002656FD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EDC26BDC1ECA9BCA002656FD /* CABasicAnimation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EDC26BDB1ECA9BCA002656FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDC26BFE1ECA9CE7002656FD /* TranslateAnimationVC.xib in Resources */,
+				EDC26BF01ECA9BCA002656FD /* LaunchScreen.storyboard in Resources */,
+				EDC26C0A1ECAA4F2002656FD /* RotationViewController.xib in Resources */,
+				EDC26BED1ECA9BCA002656FD /* Assets.xcassets in Resources */,
+				EDC26C141ECAA971002656FD /* CornerRadiusAnimationVC.xib in Resources */,
+				EDC26C1A1ECAAB32002656FD /* BorderAnimationVC.xib in Resources */,
+				EDC26C261ECAC7D0002656FD /* ShadowOffsetAnimaitonVC.xib in Resources */,
+				EDC26C201ECAAED3002656FD /* ColorOpacityAnimationVC.xib in Resources */,
+				EDC26BEB1ECA9BCA002656FD /* Main.storyboard in Resources */,
+				EDC26C051ECAA1F2002656FD /* ScaleAnimationVC.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EDC26BD91ECA9BCA002656FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDC26C251ECAC7D0002656FD /* ShadowOffsetAnimaitonVC.m in Sources */,
+				EDC26C091ECAA4F2002656FD /* RotationViewController.m in Sources */,
+				EDC26C041ECAA1F2002656FD /* ScaleAnimationVC.m in Sources */,
+				EDC26BFD1ECA9CE7002656FD /* TranslateAnimationVC.m in Sources */,
+				EDC26C131ECAA971002656FD /* CornerRadiusAnimationVC.m in Sources */,
+				EDC26BE51ECA9BCA002656FD /* AppDelegate.m in Sources */,
+				EDC26C191ECAAB32002656FD /* BorderAnimationVC.m in Sources */,
+				EDC26C1F1ECAAED3002656FD /* ColorOpacityAnimationVC.m in Sources */,
+				EDC26BE21ECA9BCA002656FD /* main.m in Sources */,
+				EDC26BF91ECA9C0C002656FD /* ListTableViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EDC26BE91ECA9BCA002656FD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDC26BEA1ECA9BCA002656FD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EDC26BEE1ECA9BCA002656FD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDC26BEF1ECA9BCA002656FD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EDC26BF21ECA9BCA002656FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EDC26BF31ECA9BCA002656FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EDC26BF51ECA9BCA002656FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CABasicAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = momo.CABasicAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EDC26BF61ECA9BCA002656FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CABasicAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = momo.CABasicAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EDC26BD81ECA9BCA002656FD /* Build configuration list for PBXProject "CABasicAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDC26BF21ECA9BCA002656FD /* Debug */,
+				EDC26BF31ECA9BCA002656FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDC26BF41ECA9BCA002656FD /* Build configuration list for PBXNativeTarget "CABasicAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDC26BF51ECA9BCA002656FD /* Debug */,
+				EDC26BF61ECA9BCA002656FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EDC26BD51ECA9BCA002656FD /* Project object */;
+}
