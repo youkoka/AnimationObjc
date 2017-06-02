@@ -13,6 +13,8 @@
 		EDBC98CE1EE1116C00A640CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDBC98CC1EE1116C00A640CC /* Main.storyboard */; };
 		EDBC98D01EE1116C00A640CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDBC98CF1EE1116C00A640CC /* Assets.xcassets */; };
 		EDBC98D31EE1116C00A640CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDBC98D11EE1116C00A640CC /* LaunchScreen.storyboard */; };
+		EDBC98DC1EE14A7000A640CC /* ButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = EDBC98DB1EE14A7000A640CC /* ButtonView.m */; };
+		EDBC98DF1EE14AD800A640CC /* CircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = EDBC98DE1EE14AD800A640CC /* CircleView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		EDBC98CF1EE1116C00A640CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EDBC98D21EE1116C00A640CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EDBC98D41EE1116C00A640CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDBC98DA1EE14A7000A640CC /* ButtonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ButtonView.h; sourceTree = "<group>"; };
+		EDBC98DB1EE14A7000A640CC /* ButtonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ButtonView.m; sourceTree = "<group>"; };
+		EDBC98DD1EE14AD800A640CC /* CircleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleView.h; sourceTree = "<group>"; };
+		EDBC98DE1EE14AD800A640CC /* CircleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +68,10 @@
 				EDBC98C71EE1116C00A640CC /* AppDelegate.m */,
 				EDBC98C91EE1116C00A640CC /* ViewController.h */,
 				EDBC98CA1EE1116C00A640CC /* ViewController.m */,
+				EDBC98DA1EE14A7000A640CC /* ButtonView.h */,
+				EDBC98DB1EE14A7000A640CC /* ButtonView.m */,
+				EDBC98DD1EE14AD800A640CC /* CircleView.h */,
+				EDBC98DE1EE14AD800A640CC /* CircleView.m */,
 				EDBC98CC1EE1116C00A640CC /* Main.storyboard */,
 				EDBC98CF1EE1116C00A640CC /* Assets.xcassets */,
 				EDBC98D11EE1116C00A640CC /* LaunchScreen.storyboard */,
@@ -151,7 +161,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				EDBC98CB1EE1116C00A640CC /* ViewController.m in Sources */,
+				EDBC98DF1EE14AD800A640CC /* CircleView.m in Sources */,
 				EDBC98C81EE1116C00A640CC /* AppDelegate.m in Sources */,
+				EDBC98DC1EE14A7000A640CC /* ButtonView.m in Sources */,
 				EDBC98C51EE1116C00A640CC /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -311,6 +323,7 @@
 				EDBC98D91EE1116C00A640CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
