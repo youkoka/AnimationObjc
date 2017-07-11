@@ -186,9 +186,9 @@
 		EDC26C1B1ECAAEA8002656FD /* ColorAndOpacityAnimaton */ = {
 			isa = PBXGroup;
 			children = (
+				EDC26C1E1ECAAED3002656FD /* ColorOpacityAnimationVC.xib */,
 				EDC26C1C1ECAAED3002656FD /* ColorOpacityAnimationVC.h */,
 				EDC26C1D1ECAAED3002656FD /* ColorOpacityAnimationVC.m */,
-				EDC26C1E1ECAAED3002656FD /* ColorOpacityAnimationVC.xib */,
 			);
 			name = ColorAndOpacityAnimaton;
 			sourceTree = "<group>";
