@@ -1,0 +1,354 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EDF48AFB1F1C605500677DE2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EDF48AFA1F1C605500677DE2 /* main.m */; };
+		EDF48AFE1F1C605500677DE2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EDF48AFD1F1C605500677DE2 /* AppDelegate.m */; };
+		EDF48B011F1C605500677DE2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EDF48B001F1C605500677DE2 /* ViewController.m */; };
+		EDF48B041F1C605500677DE2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDF48B021F1C605500677DE2 /* Main.storyboard */; };
+		EDF48B061F1C605500677DE2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDF48B051F1C605500677DE2 /* Assets.xcassets */; };
+		EDF48B091F1C605500677DE2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDF48B071F1C605500677DE2 /* LaunchScreen.storyboard */; };
+		EDF48B1F1F1C625700677DE2 /* ShapeLayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EDF48B1D1F1C625700677DE2 /* ShapeLayerViewController.m */; };
+		EDF48B201F1C625700677DE2 /* ShapeLayerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EDF48B1E1F1C625700677DE2 /* ShapeLayerViewController.xib */; };
+		EDF48B241F1C627300677DE2 /* KeyFrameLayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EDF48B221F1C627300677DE2 /* KeyFrameLayerViewController.m */; };
+		EDF48B251F1C627300677DE2 /* KeyFrameLayerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EDF48B231F1C627300677DE2 /* KeyFrameLayerViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EDF48AF61F1C605500677DE2 /* ReplicationAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReplicationAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDF48AFA1F1C605500677DE2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EDF48AFC1F1C605500677DE2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EDF48AFD1F1C605500677DE2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EDF48AFF1F1C605500677DE2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EDF48B001F1C605500677DE2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EDF48B031F1C605500677DE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EDF48B051F1C605500677DE2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EDF48B081F1C605500677DE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EDF48B0A1F1C605500677DE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDF48B1C1F1C625700677DE2 /* ShapeLayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShapeLayerViewController.h; sourceTree = "<group>"; };
+		EDF48B1D1F1C625700677DE2 /* ShapeLayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShapeLayerViewController.m; sourceTree = "<group>"; };
+		EDF48B1E1F1C625700677DE2 /* ShapeLayerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ShapeLayerViewController.xib; sourceTree = "<group>"; };
+		EDF48B211F1C627300677DE2 /* KeyFrameLayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyFrameLayerViewController.h; sourceTree = "<group>"; };
+		EDF48B221F1C627300677DE2 /* KeyFrameLayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyFrameLayerViewController.m; sourceTree = "<group>"; };
+		EDF48B231F1C627300677DE2 /* KeyFrameLayerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KeyFrameLayerViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EDF48AF31F1C605500677DE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EDF48AED1F1C605500677DE2 = {
+			isa = PBXGroup;
+			children = (
+				EDF48AF81F1C605500677DE2 /* ReplicationAnimation */,
+				EDF48AF71F1C605500677DE2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EDF48AF71F1C605500677DE2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EDF48AF61F1C605500677DE2 /* ReplicationAnimation.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EDF48AF81F1C605500677DE2 /* ReplicationAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				EDF48AFC1F1C605500677DE2 /* AppDelegate.h */,
+				EDF48AFD1F1C605500677DE2 /* AppDelegate.m */,
+				EDF48AFF1F1C605500677DE2 /* ViewController.h */,
+				EDF48B001F1C605500677DE2 /* ViewController.m */,
+				EDF48B111F1C608800677DE2 /* CAShapeLayer */,
+				EDF48B101F1C607600677DE2 /* CAKeyFrameLayer */,
+				EDF48B021F1C605500677DE2 /* Main.storyboard */,
+				EDF48B051F1C605500677DE2 /* Assets.xcassets */,
+				EDF48B071F1C605500677DE2 /* LaunchScreen.storyboard */,
+				EDF48B0A1F1C605500677DE2 /* Info.plist */,
+				EDF48AF91F1C605500677DE2 /* Supporting Files */,
+			);
+			path = ReplicationAnimation;
+			sourceTree = "<group>";
+		};
+		EDF48AF91F1C605500677DE2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EDF48AFA1F1C605500677DE2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EDF48B101F1C607600677DE2 /* CAKeyFrameLayer */ = {
+			isa = PBXGroup;
+			children = (
+				EDF48B211F1C627300677DE2 /* KeyFrameLayerViewController.h */,
+				EDF48B221F1C627300677DE2 /* KeyFrameLayerViewController.m */,
+				EDF48B231F1C627300677DE2 /* KeyFrameLayerViewController.xib */,
+			);
+			name = CAKeyFrameLayer;
+			sourceTree = "<group>";
+		};
+		EDF48B111F1C608800677DE2 /* CAShapeLayer */ = {
+			isa = PBXGroup;
+			children = (
+				EDF48B1C1F1C625700677DE2 /* ShapeLayerViewController.h */,
+				EDF48B1D1F1C625700677DE2 /* ShapeLayerViewController.m */,
+				EDF48B1E1F1C625700677DE2 /* ShapeLayerViewController.xib */,
+			);
+			name = CAShapeLayer;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EDF48AF51F1C605500677DE2 /* ReplicationAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDF48B0D1F1C605500677DE2 /* Build configuration list for PBXNativeTarget "ReplicationAnimation" */;
+			buildPhases = (
+				EDF48AF21F1C605500677DE2 /* Sources */,
+				EDF48AF31F1C605500677DE2 /* Frameworks */,
+				EDF48AF41F1C605500677DE2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReplicationAnimation;
+			productName = ReplicationAnimation;
+			productReference = EDF48AF61F1C605500677DE2 /* ReplicationAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EDF48AEE1F1C605500677DE2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = YehHenChia;
+				TargetAttributes = {
+					EDF48AF51F1C605500677DE2 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = EDF48AF11F1C605500677DE2 /* Build configuration list for PBXProject "ReplicationAnimation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EDF48AED1F1C605500677DE2;
+			productRefGroup = EDF48AF71F1C605500677DE2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EDF48AF51F1C605500677DE2 /* ReplicationAnimation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EDF48AF41F1C605500677DE2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDF48B091F1C605500677DE2 /* LaunchScreen.storyboard in Resources */,
+				EDF48B201F1C625700677DE2 /* ShapeLayerViewController.xib in Resources */,
+				EDF48B061F1C605500677DE2 /* Assets.xcassets in Resources */,
+				EDF48B251F1C627300677DE2 /* KeyFrameLayerViewController.xib in Resources */,
+				EDF48B041F1C605500677DE2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EDF48AF21F1C605500677DE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDF48B011F1C605500677DE2 /* ViewController.m in Sources */,
+				EDF48B241F1C627300677DE2 /* KeyFrameLayerViewController.m in Sources */,
+				EDF48AFE1F1C605500677DE2 /* AppDelegate.m in Sources */,
+				EDF48AFB1F1C605500677DE2 /* main.m in Sources */,
+				EDF48B1F1F1C625700677DE2 /* ShapeLayerViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EDF48B021F1C605500677DE2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDF48B031F1C605500677DE2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EDF48B071F1C605500677DE2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDF48B081F1C605500677DE2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EDF48B0B1F1C605500677DE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EDF48B0C1F1C605500677DE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EDF48B0E1F1C605500677DE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ReplicationAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = momo.ReplicationAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EDF48B0F1F1C605500677DE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ReplicationAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = momo.ReplicationAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EDF48AF11F1C605500677DE2 /* Build configuration list for PBXProject "ReplicationAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDF48B0B1F1C605500677DE2 /* Debug */,
+				EDF48B0C1F1C605500677DE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDF48B0D1F1C605500677DE2 /* Build configuration list for PBXNativeTarget "ReplicationAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDF48B0E1F1C605500677DE2 /* Debug */,
+				EDF48B0F1F1C605500677DE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EDF48AEE1F1C605500677DE2 /* Project object */;
+}

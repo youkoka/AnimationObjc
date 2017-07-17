@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="KeyFrameLayerViewController">
+            <connections>
+                <outlet property="sunImgView" destination="cje-ii-ncT" id="3cj-iU-FZM"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sun" translatesAutoresizingMaskIntoConstraints="NO" id="cje-ii-ncT">
+                    <rect key="frame" x="128" y="252" width="64" height="64"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="64" id="D7N-Uh-wCt"/>
+                        <constraint firstAttribute="width" constant="64" id="uYI-9e-yMI"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" red="0.80392156859999997" green="0.80392156859999997" blue="0.80392156859999997" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="cje-ii-ncT" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="Xsd-JH-KQm"/>
+                <constraint firstItem="cje-ii-ncT" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="YR2-x4-IYu"/>
+            </constraints>
+        </view>
+    </objects>
+    <resources>
+        <image name="sun" width="64" height="64"/>
+    </resources>
+</document>
