@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mBD-kn-Pm1" customClass="AnimationView">
+                                <rect key="frame" x="16" y="395" width="288" height="153"/>
+                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8XC-8n-nNi" customClass="BezierView">
+                                <rect key="frame" x="16" y="28" width="288" height="131"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VOv-Hh-IRN" customClass="TrangleView">
+                                <rect key="frame" x="16" y="213" width="288" height="142"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="VOv-Hh-IRN" firstAttribute="top" secondItem="8XC-8n-nNi" secondAttribute="bottom" constant="54" id="AYb-vT-d6m"/>
+                            <constraint firstItem="8XC-8n-nNi" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="C0k-GN-8Q1"/>
+                            <constraint firstItem="8XC-8n-nNi" firstAttribute="leading" secondItem="VOv-Hh-IRN" secondAttribute="leading" id="FEP-kc-ddY"/>
+                            <constraint firstItem="VOv-Hh-IRN" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="213" id="K2I-y3-3TS"/>
+                            <constraint firstItem="VOv-Hh-IRN" firstAttribute="leading" secondItem="mBD-kn-Pm1" secondAttribute="leading" id="KDf-0x-BW0"/>
+                            <constraint firstItem="8XC-8n-nNi" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" symbolic="YES" id="KoN-kW-K3O"/>
+                            <constraint firstItem="VOv-Hh-IRN" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="WqA-X4-6qO"/>
+                            <constraint firstAttribute="bottom" secondItem="mBD-kn-Pm1" secondAttribute="bottom" constant="20" symbolic="YES" id="ZLT-uh-1Gb"/>
+                            <constraint firstItem="8XC-8n-nNi" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="cnD-qh-wQP"/>
+                            <constraint firstItem="VOv-Hh-IRN" firstAttribute="trailing" secondItem="mBD-kn-Pm1" secondAttribute="trailing" id="hcD-og-e9t"/>
+                            <constraint firstItem="mBD-kn-Pm1" firstAttribute="top" secondItem="VOv-Hh-IRN" secondAttribute="bottom" constant="40" id="pWo-nO-DKX"/>
+                            <constraint firstItem="8XC-8n-nNi" firstAttribute="trailing" secondItem="VOv-Hh-IRN" secondAttribute="trailing" id="u0W-Er-khY"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="animationView" destination="mBD-kn-Pm1" id="mvH-R8-Xnu"/>
+                        <outlet property="bezierView" destination="8XC-8n-nNi" id="NXj-Dc-ghS"/>
+                        <outlet property="trangleView" destination="VOv-Hh-IRN" id="hHM-8Q-v8N"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="135" y="138.38028169014083"/>
+        </scene>
+    </scenes>
+</document>

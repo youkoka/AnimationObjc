@@ -35,7 +35,7 @@
     CABasicAnimation *pathAnimation = [CABasicAnimation animationWithKeyPath:@"strokeEnd"];
     [pathAnimation setDelegate:self];
     [pathAnimation setValue:@"circleAnimation" forKey:@"circle"];
-    pathAnimation.duration = 3;
+    pathAnimation.duration = 2;
     pathAnimation.fromValue = [NSNumber numberWithInt:0];
     pathAnimation.toValue = [NSNumber numberWithInt:1];
     [self.circleLayer addAnimation:pathAnimation forKey:nil];
